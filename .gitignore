@@ -1,0 +1,28 @@
+# Repo-wide ignores. Each app (frontend/, backend/, …) keeps its own .gitignore too.
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Build & coverage output
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Editors & OS
+.idea/
+*.sw?
+.DS_Store
+Thumbs.db
